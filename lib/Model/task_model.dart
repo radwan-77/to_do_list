@@ -3,6 +3,14 @@ import 'package:flutter/material.dart';
 class TaskModel {
   String title;
   String? subtitle;
+  // String? subtask;
   bool isCompleted;
-  TaskModel({required this.title, this.subtitle, this.isCompleted = false});
+  // String? priority;
+  // DateTime? done;
+  DateTime createdAt;
+  TaskModel(
+      {required this.title,
+      this.subtitle,
+      this.isCompleted = false,
+      required this.createdAt});
 }
