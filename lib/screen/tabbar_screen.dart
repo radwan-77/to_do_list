@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_list/Model/task_model.dart';
 import 'package:to_do_list/widget/cards/task_card.dart';
-import 'package:to_do_list/widget/dialog/add_task_dialog';
+import 'package:to_do_list/widget/dialog/add_task_dialog.dart';
 
 class TabBarScreen extends StatefulWidget {
   // Convert to StatefulWidget
@@ -71,7 +71,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
             ),
             Expanded(
               child: TabBarView(
-                physics: const NeverScrollableScrollPhysics(),
+                // physics: const NeverScrollableScrollPhysics(),
                 children: [
                   ListView.builder(
                     padding: const EdgeInsets.all(24),

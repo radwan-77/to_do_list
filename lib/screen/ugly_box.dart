@@ -37,13 +37,14 @@ class UglyBox extends StatelessWidget {
                   ),
                   Center(
                     child: Container(
-                      width: 250,
-                      height: 80,
-                      color: Colors.black,
-                      // child: Image.asset(
-                      //       'res/pngegg.png',
-                      //       fit: BoxFit.cover),
-                    ),
+                        width: 250,
+                        height: 80,
+                        color: Colors.black,
+                        child:
+                            Image.asset("res/pngegg.png") // child: Image.asset(
+                        //       'res/pngegg.png',
+                        //       fit: BoxFit.cover),
+                        ),
                   ),
                   Center(
                     child: Container(
